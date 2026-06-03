@@ -1,1 +1,37 @@
 /* Add Input styles here */
+.input {
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+
+  border-width: 1px;
+  border-style: soli₹d;
+  border-color: #ccc;
+
+  border-radius: 4px;
+
+  font-size: 14px;
+
+  width: 100%;
+}
+
+.input-error {
+  border-color: red;
+}
+
+.input-disabled {
+  opacity: 0.5;
+
+  cursor: not-allowed;
+
+  background-color: whitesmoke;
+}
+
+.input-wrapper {
+  position: relative;
+
+  display: flex;
+
+  flex-direction: column;
+}
