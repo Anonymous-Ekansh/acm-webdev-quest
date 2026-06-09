@@ -1,1 +1,39 @@
 /* Add ToggleSwitch styles here */
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.sr-only {
+  display: none;
+}
+
+.toggle-slider {
+  width: 40px;
+  height: 20px;
+  background: gray;
+  border-radius: 20px;
+  position: relative;
+}
+
+.toggle-slider::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.toggle-slider-on {
+  background: green;
+}
+
+.toggle-slider-on::after {
+  left: 22px;
+}
