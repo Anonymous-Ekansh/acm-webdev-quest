@@ -1,1 +1,18 @@
 /* Add Tooltip styles here */
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-content {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 1;
+}
