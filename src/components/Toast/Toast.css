@@ -1,1 +1,26 @@
 /* Add Toast styles here */
+.toast {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+
+.toast-success {
+  background-color: green;
+}
+
+.toast-error {
+  background-color: red;
+}
+
+.toast-info {
+  background-color: blue;
+}
+
+.toast button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
